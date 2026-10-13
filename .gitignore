@@ -1,0 +1,39 @@
+# Local planning / progress log (never push)
+PLAN.md
+DONE.md
+
+# Raw downloads & extracts
+Visual Geometery Group/
+oxford-iiit-pet/
+ANN_DL_Assignment/
+flowers_subset/
+pets_subset/
+**/jpg/
+**/images/
+**/annotations/
+**/trimaps/
+*.tgz
+*.tar.gz
+*.mat
+
+# Model weights / checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Runtime outputs that may contain large blobs (keep results/ PNGs intentionally trackable)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Drive upload zip (optional local artifact)
+ANN_DL_Assignment.zip
